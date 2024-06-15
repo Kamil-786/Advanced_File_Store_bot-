@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\nI ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Anime_Mayhem")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nɪ ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇʀ ʙᴏᴛ ᴏғ ᴋs ᴍᴏᴠɪᴇs & sᴇʀɪᴇs ᴀɴᴅ ᴋs ᴋᴏʀᴇᴀɴ ᴅʀᴀᴍᴀ, ɪ sᴛᴏʀᴇ ғɪʟᴇs ɪɴsɪᴅᴇ ᴍᴇ ᴀɴᴅ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴛʜᴇᴍ ʙʏ sᴏʟᴠɪɴɢ sʜᴏʀᴛᴇɴᴇʀ ғʀᴏᴍ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ!\n» @KS_MOVIESANDSERIES\n» @KS_KOREANDRAMA")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "6672416716").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "〒Hi! \nPlease Join our channel First then Download by tapping on ʀᴇʟᴏᴀᴅ  \nThank You✦")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʜᴇʟʟᴏ {first}\n\n<b>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴍʏ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴛʜᴇ ᴛʀʏ ᴀɢᴀɪɴ ʙᴜᴛᴛᴏɴ!</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
